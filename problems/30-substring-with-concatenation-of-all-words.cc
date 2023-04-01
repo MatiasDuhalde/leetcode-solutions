@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=30 lang=cpp
+ *
+ * [30] Substring With Concatenation Of All Words
+ */
+
+// @lc code=start
 #include <string>
 #include <unordered_map>
 #include <vector>
@@ -39,3 +46,4 @@ class Solution {
     return result;
   }
 };
+// @lc code=end

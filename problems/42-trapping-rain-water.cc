@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=42 lang=cpp
+ *
+ * [42] Trapping Rain Water
+ */
+
+// @lc code=start
 #include <vector>
 
 class Solution {
@@ -34,4 +41,4 @@ class Solution {
 
     return total;
   }
-};
+};// @lc code=end

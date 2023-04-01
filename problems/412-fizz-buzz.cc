@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=412 lang=cpp
+ *
+ * [412] Fizz Buzz
+ */
+
+// @lc code=start
 #include <string>
 #include <vector>
 
@@ -21,3 +28,4 @@ class Solution {
     return result;
   }
 };
+// @lc code=end

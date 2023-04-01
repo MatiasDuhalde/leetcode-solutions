@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=23 lang=cpp
+ *
+ * [23] Merge K Sorted Lists
+ */
+
+// @lc code=start
 
 #include <vector>
 
@@ -34,3 +41,4 @@ class Solution {
     return head->next;
   }
 };
+// @lc code=end

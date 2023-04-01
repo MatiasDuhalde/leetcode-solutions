@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=14 lang=cpp
+ *
+ * [14] Longest Common Prefix
+ */
+
+// @lc code=start
 #include <climits>
 #include <string>
 #include <vector>
@@ -30,3 +37,4 @@ class Solution {
     return current_prefix;
   }
 };
+// @lc code=end

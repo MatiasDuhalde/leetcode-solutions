@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=1672 lang=cpp
+ *
+ * [1672] Richest Customer Wealth
+ */
+
+// @lc code=start
 #include <cmath>
 #include <vector>
 
@@ -18,3 +25,4 @@ class Solution {
     return max_wealth;
   }
 };
+// @lc code=end

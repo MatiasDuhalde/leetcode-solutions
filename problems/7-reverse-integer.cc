@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=7 lang=cpp
+ *
+ * [7] Reverse Integer
+ */
+
+// @lc code=start
 #include <climits>
 
 class Solution {
@@ -22,3 +29,4 @@ class Solution {
     return output;
   }
 };
+// @lc code=end

@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=383 lang=cpp
+ *
+ * [383] Ransom Note
+ */
+
+// @lc code=start
 #include <string>
 #include <unordered_map>
 
@@ -33,3 +40,4 @@ class Solution {
     return true;
   }
 };
+// @lc code=end

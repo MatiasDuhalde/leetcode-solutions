@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=31 lang=cpp
+ *
+ * [31] Next Permutation
+ */
+
+// @lc code=start
 #include <algorithm>
 #include <vector>
 
@@ -41,3 +48,4 @@ class Solution {
     std::reverse(nums.begin() + k + 1, nums.end());
   }
 };
+// @lc code=end

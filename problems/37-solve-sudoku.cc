@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=37 lang=cpp
+ *
+ * [37] Solve Sudoku
+ */
+
+// @lc code=start
 #include <algorithm>
 #include <array>
 #include <unordered_map>
@@ -248,3 +255,4 @@ class Solution {
     }
   }
 };
+// @lc code=end

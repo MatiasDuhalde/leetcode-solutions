@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=24 lang=cpp
+ *
+ * [24] Swap Nodes In Pairs
+ */
+
+// @lc code=start
 
 #include "../lib/list-node.cc"
 
@@ -11,4 +18,4 @@ class Solution {
     next->next = head;
     return next;
   }
-};
+};// @lc code=end

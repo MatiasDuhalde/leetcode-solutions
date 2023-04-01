@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=1480 lang=cpp
+ *
+ * [1480] Running Sum Of 1D Array
+ */
+
+// @lc code=start
 #include <vector>
 
 class Solution {
@@ -12,3 +19,4 @@ class Solution {
     return v;
   }
 };
+// @lc code=end

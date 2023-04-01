@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=28 lang=cpp
+ *
+ * [28] Find The Index Of The First Occurrence In A String
+ */
+
+// @lc code=start
 #include <string>
 #include <vector>
 
@@ -46,3 +53,4 @@ class Solution {
     return -1;
   }
 };
+// @lc code=end

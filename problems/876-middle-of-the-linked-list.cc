@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=876 lang=cpp
+ *
+ * [876] Middle Of The Linked List
+ */
+
+// @lc code=start
 #include "lib/list-node.cc"
 
 class Solution {
@@ -14,4 +21,4 @@ class Solution {
     }
     return head;
   }
-};
+};// @lc code=end

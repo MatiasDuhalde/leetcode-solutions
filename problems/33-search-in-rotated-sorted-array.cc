@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=33 lang=cpp
+ *
+ * [33] Search In Rotated Sorted Array
+ */
+
+// @lc code=start
 #include <vector>
 
 class Solution {
@@ -42,3 +49,4 @@ class Solution {
     return -1;
   }
 };
+// @lc code=end

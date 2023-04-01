@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=6 lang=cpp
+ *
+ * [6] Zigzag Conversion
+ */
+
+// @lc code=start
 #include <string>
 
 class Solution {
@@ -30,3 +37,4 @@ class Solution {
     return output;
   }
 };
+// @lc code=end

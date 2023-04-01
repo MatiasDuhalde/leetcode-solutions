@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=9 lang=cpp
+ *
+ * [9] Palindrome Number
+ */
+
+// @lc code=start
 #include <cmath>
 
 class Solution {
@@ -33,4 +40,4 @@ class Solution {
 
     return true;
   }
-};
+};// @lc code=end

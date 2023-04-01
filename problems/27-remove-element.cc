@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=27 lang=cpp
+ *
+ * [27] Remove Element
+ */
+
+// @lc code=start
 #include <vector>
 
 class Solution {
@@ -13,4 +20,4 @@ class Solution {
     }
     return s;
   }
-};
+};// @lc code=end

@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=10 lang=cpp
+ *
+ * [10] Regular Expression Matching
+ */
+
+// @lc code=start
 #include <string>
 
 class Solution {
@@ -44,3 +51,4 @@ class Solution {
     return isMatch(s, p.substr(2));
   }
 };
+// @lc code=end

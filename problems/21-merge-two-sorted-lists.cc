@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=21 lang=cpp
+ *
+ * [21] Merge Two Sorted Lists
+ */
+
+// @lc code=start
 #include "lib/list-node.cc"
 
 class Solution {
@@ -26,3 +33,4 @@ class Solution {
     return head->next;
   }
 };
+// @lc code=end

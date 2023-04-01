@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=32 lang=cpp
+ *
+ * [32] Longest Valid Parentheses
+ */
+
+// @lc code=start
 #include <string>
 
 class Solution {
@@ -60,3 +67,4 @@ class Solution {
     return longestValidParentheses(s.substr(balance));
   }
 };
+// @lc code=end

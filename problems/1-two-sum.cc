@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=1 lang=cpp
+ *
+ * [1] Two Sum
+ */
+
+// @lc code=start
 #include <vector>
 
 class Solution {
@@ -14,3 +21,4 @@ class Solution {
     return {};
   }
 };
+// @lc code=end

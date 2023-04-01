@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=26 lang=cpp
+ *
+ * [26] Remove Duplicates From Sorted Array Copy
+ */
+
+// @lc code=start
 #include <vector>
 
 class Solution {
@@ -14,3 +21,4 @@ class Solution {
     return i + 1;
   }
 };
+// @lc code=end

@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=38 lang=cpp
+ *
+ * [38] Count And Say
+ */
+
+// @lc code=start
 #include <string>
 
 class Solution {
@@ -24,3 +31,4 @@ class Solution {
     return result;
   }
 };
+// @lc code=end

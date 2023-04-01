@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=39 lang=cpp
+ *
+ * [39] Combination Sum
+ */
+
+// @lc code=start
 #include <vector>
 
 class Solution {
@@ -34,4 +41,4 @@ class Solution {
                                                int target) {
     return recursivePart(candidates.begin(), candidates.end(), target);
   }
-};
+};// @lc code=end

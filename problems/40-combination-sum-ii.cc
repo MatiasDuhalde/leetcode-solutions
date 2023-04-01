@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=40 lang=cpp
+ *
+ * [40] Combination Sum Ii
+ */
+
+// @lc code=start
 #include <algorithm>
 #include <vector>
 
@@ -34,3 +41,4 @@ class Solution {
     return result;
   }
 };
+// @lc code=end

@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=43 lang=cpp
+ *
+ * [43] Multiply Strings
+ */
+
+// @lc code=start
 #include <string>
 
 class Solution {
@@ -31,3 +38,4 @@ class Solution {
     return res;
   }
 };
+// @lc code=end

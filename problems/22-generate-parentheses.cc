@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=22 lang=cpp
+ *
+ * [22] Generate Parentheses
+ */
+
+// @lc code=start
 #include <string>
 #include <unordered_map>
 #include <vector>
@@ -30,3 +37,4 @@ class Solution {
     return res;
   }
 };
+// @lc code=end

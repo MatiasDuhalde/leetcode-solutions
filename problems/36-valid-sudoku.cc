@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=36 lang=cpp
+ *
+ * [36] Valid Sudoku
+ */
+
+// @lc code=start
 #include <vector>
 
 class Solution {
@@ -41,3 +48,4 @@ class Solution {
     return true;
   }
 };
+// @lc code=end

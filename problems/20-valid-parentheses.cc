@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=20 lang=cpp
+ *
+ * [20] Valid Parentheses
+ */
+
+// @lc code=start
 #include <list>
 #include <string>
 
@@ -24,3 +31,4 @@ class Solution {
     return stack.size() == 0;
   }
 };
+// @lc code=end

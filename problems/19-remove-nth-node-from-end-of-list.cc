@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=19 lang=cpp
+ *
+ * [19] Remove Nth Node From End Of List
+ */
+
+// @lc code=start
 #include "lib/list-node.cc"
 
 class Solution {
@@ -20,3 +27,4 @@ class Solution {
     return head;
   }
 };
+// @lc code=end

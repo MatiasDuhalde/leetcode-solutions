@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=1342 lang=cpp
+ *
+ * [1342] Number Of Steps To Reduce A Number To Zero
+ */
+
+// @lc code=start
 class Solution {
  public:
   int numberOfSteps(int num) {
@@ -6,3 +13,4 @@ class Solution {
     return numberOfSteps(num - 1) + 1;
   }
 };
+// @lc code=end

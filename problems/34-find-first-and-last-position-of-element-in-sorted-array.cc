@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=34 lang=cpp
+ *
+ * [34] Find First And Last Position Of Element In Sorted Array
+ */
+
+// @lc code=start
 #include <vector>
 
 class Solution {
@@ -58,3 +65,4 @@ class Solution {
     return {current_left, current_right};
   }
 };
+// @lc code=end

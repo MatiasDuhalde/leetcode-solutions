@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=4 lang=cpp
+ *
+ * [4] Median Of Two Sorted Arrays
+ */
+
+// @lc code=start
 #include <climits>
 #include <cmath>
 #include <vector>
@@ -54,4 +61,4 @@ class Solution {
       return std::min(a_right, b_right);
     }
   }
-};
+};// @lc code=end
