@@ -10,10 +10,10 @@
 class Solution {
 public:
   bool canJump(std::vector<int> &nums) {
-    if (nums.size() == 0) {
+    if (nums.size() == 1) {
       return true;
     }
-    int i = nums.size() - 1;
+    int i = nums.size() - 2;
     int jumpNeeded = 0;
     while (i >= 0) {
       if (nums[i] == 0) {
