@@ -1,30 +1,65 @@
 /*
- * @lc app=leetcode id=60 lang=cpp
+ * @lc app=leetcode id=67 lang=cpp
  *
- * [60] Permutation Sequence
+ * [67] Add Binary
  */
 
 // @lc code=start
 
-#include <vector>
+#include <string>
 
 class Solution {
 public:
-  vector<int> plusOne(vector<int> &digits) {
-    int = digits.size();
-    while (i >= 0) {
-      int value = digits[i];
-      if (value == 9) {
-        digits[i] = 0;
+  std::string addBinary(std::string a, std::string b) {
+    bool carry = false;
+    std::string result = "";
+    int index_a = a.size() - 1;
+    int index_b = b.size() - 1;
+    while (index_a >= 0 && index_b >= 0) {
+      char digit_a = a.at(index_a);
+      char digit_b = b.at(index_b);
+      if (digit_a == '0') {
+        if (digit_b == '0') {
+          result.insert(result.begin(), carry ? '1' : '0');
+          carry = false;
+        } else {
+          result.insert(result.begin(), carry ? '0' : '1');
+        }
       } else {
-        digits[i]++;
-        break;
+        if (digit_b == '0') {
+          result.insert(result.begin(), carry ? '0' : '1');
+        } else {
+          result.insert(result.begin(), carry ? '1' : '0');
+          carry = true;
+        }
       }
-      i--;
+      index_a--;
+      index_b--;
     }
-    if (i == -1) {
+    while (index_a >= 0) {
+      char digit_a = a.at(index_a);
+      if (digit_a == '1') {
+        result.insert(result.begin(), carry ? '0' : '1');
+      } else {
+        result.insert(result.begin(), carry ? '1' : '0');
+        carry = false;
+      }
+      index_a--;
     }
-    return digits;
+    while (index_b >= 0) {
+      char digit_b = b.at(index_b);
+      if (digit_b == '1') {
+        result.insert(result.begin(), carry ? '0' : '1');
+      } else {
+        result.insert(result.begin(), carry ? '1' : '0');
+        carry = false;
+      }
+      index_b--;
+    }
+    if (carry) {
+      result.insert(result.begin(), '1');
+    }
+    return result;
   }
 };
 // @lc code=end
